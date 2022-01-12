@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+
+	<!--- basic page needs
+   ================================================== -->
+	<meta charset="utf-8">
+	<title>EBB</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+   ================================================== -->
+	<link rel="stylesheet" href="{{ url_for('static',filename='/css/base.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static',filename='/css/main.css') }}" >
+	<link rel="stylesheet" href="{{ url_for('static',filename='/css/vendor.css') }}" >
+
+	<!-- script
+   ================================================== -->
+	<script src="{{ url_for('static',filename='/js/modernizr.js') }}" ></script>
+	<script src="{{ url_for('static',filename='/js/pace.min.js') }}"></script>
+
+	<!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="favicon.png">
+
+</head>
+
+<body id="top">
+
+
+
+	<section id="intro">   
+
+		<div class="intro-overlay"></div>	
+ 
+		<div class="intro-content">
+			<div class="row">
+ 
+				<div class="col-twelve">
+ 
+					<h5>Hello, World.</h5>
+					<h1>I'm Emirhan Bilge.</h1>
+ 
+					<p class="intro-position">
+						<span>Software Developer</span>
+						<span>System Engineering</span> 
+					</p>
+ 
+					<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
+ 
+				</div>  
+				
+			</div>   		 		
+		</div> <!-- /intro-content --> 
+ 
+		<ul class="intro-social">        
+		  <li><a href="https://www.linkedin.com/in/emirhanbilgebulut/"><i class="fa fa-linkedin"></i></a></li>
+		  <li><a href="https://github.com/emirhanbilge?tab=repositories"><i class="fa fa-github"></i></a></li>
+		  <li><a href="https://www.youtube.com/c/EBBTeam"><i class="fa fa-youtube"></i></a></li>
+
+	   </ul> <!-- /intro-social -->      	
+ 
+	</section> <!-- /intro -->
+
+
+	<!-- about section
+   ================================================== -->
+	<section id="about">
+
+		<div class="row section-intro">
+			<div class="col-twelve">
+
+				<h5>About</h5>
+				<h1>Let me introduce myself.</h1>
+
+				<div class="intro-info">
+					
+					<img src="{{ url_for('static',filename='/images/profile-pic.jpg') }}" alt="Profile Picture">
+
+					<p class="lead">I am a lively and determined person who likes to follow technology . I am currently
+						studying Computer Engineering in my last year of university. I have done my work on this site
+						and for those who want to get to know me better. :)</p>
+				</div>
+
+			</div>
+		</div> <!-- /section-intro -->
+
+		<div class="row about-content">
+
+			<div class="col-six tab-full">
+
+				<h3>VOLUNTER EXPERIENCES</h3>
+				<p>I am involved in social activities as much as possible. I take care not only to have fun and meet new
+					people but also to improve myself.</p>
+				<br>
+				<ul class="info-list">
+
+					<li>
+						<hr>
+						<span><b>Member of IEEE (2017-2019)</b></span>
+					</li>
+					<li>
+						<hr>
+						<span><b>Vice Presedent of IEEE(2019-2020)</b></span>
+					</li>
+					<li>
+						<hr>
+						<span><b>Participant GoogleDeveloperGroup(2018-2019) in Izmir</b></span>
+					</li>
+					<li>
+						<hr>
+						<span><b>Participant CSCON(2018) in Istanbul</b></span>
+					</li>
+					<li>
+						<hr>
+						<span><b>Participant DETECH (2019)</b> </span>
+						<hr>
+					</li>
+
+				</ul> <!-- /info-list -->
+
+			</div>
+
+			<div class="col-six tab-full">
+
+				<h3>Skills</h3>
+				<p>I try to follow current technologies as much as possible. I am writing here only to give information
+					about me. I am open to new methodologies and languages .</p>
+
+				<ul class="skill-bars">
+					<li>
+						<div class="progress percent100"></div>
+					</li>
+					<li>
+						<div class="progress percent100"></div>
+						<strong>Python</strong>
+					</li>
+
+
+					<li>
+						<div class="progress percent100"></div>
+						<strong>Java</strong>
+					</li>
+
+					<li>
+						<div class="progress percent100"></div>
+						<strong>SQL</strong>
+					</li>
+
+
+					<li>
+						<div class="progress percent100"></div>
+						<strong>Object Orianted Programming</strong>
+					</li>
+
+
+					<li>
+						<div class="progress percent100"></div>
+						<strong>Embedded Systems</strong>
+					</li>
+
+					<li>
+						<div class="progress percent100"></div>
+						<strong>C</strong>
+					</li>
+
+
+					<li>
+						<div class="progress percent100"></div>
+						<strong>Linux</strong>
+					</li>
+
+				</ul> <!-- /skill-bars -->
+
+			</div>
+
+		</div>
+
+		<div class="row button-section">
+			<div class="col-twelve">
+
+				<a href="#" title="Download CV" class="button button-primary">Download CV</a>
+			</div>
+		</div>
+
+	</section> <!-- /process-->
+
+
+	<!-- resume Section
+   ================================================== -->
+	<section id="resume" class="grey-section">
+
+		<div class="row section-intro">
+			<div class="col-twelve">
+
+				<h5>Resume</h5>
+				<h1>More of my personal information.</h1>
+
+				<p class="lead">Dokuz Eylül University Department of Computer Engineering 4th Grade Student </p>
+
+			</div>
+		</div> <!-- /section-intro-->
+
+		<div class="row resume-timeline">
+
+			<div class="col-twelve resume-header">
+
+				<h2>My Projects</h2>
+
+			</div> <!-- /resume-header -->
+
+			<div class="col-twelve">
+
+				<div class="timeline-wrap">
+
+
+					<div class="timeline-block">
+
+						<div class="timeline-ico">
+							<i class="fa fa-code-fork"></i>
+						</div>
+
+						<div class="timeline-header">
+							<h3>Software Developer</h3>
+							<p>2021</p>
+						</div>
+
+						<div class="timeline-content">
+							<h4>Prediction of Absences from Hospital Appointments with Machine Learning</h4>
+							<p>It is a study in which we make applications of Machine Learning and data mining methods
+								and models. Here we made performance and comparisons by processing those who did not
+								show up for their hospital appointment with various machine learning models. We tried to
+								increase the performance of the algorithm.</p>
+						</div>
+
+					</div> <!-- /timeline-block -->
+
+
+					<div class="timeline-block">
+
+						<div class="timeline-ico">
+							<i class="fa fa-code-fork"></i>
+						</div>
+
+						<div class="timeline-header">
+							<h3>Software Developer</h3>
+							<p>2021</p>
+						</div>
+
+						<div class="timeline-content">
+							<h4>Banking Using Homomorphic Encryption
+								Making the Transactions</h4>
+							<p>It is a study we have done on the application or application of HE encryption in the
+								banking sector, which is used in cloud systems today and is expected to be used
+								extensively in the future. We aimed to ensure the privacy and security of users with
+								homomorphic encryption .</p>
+						</div>
+
+					</div> <!-- /timeline-block -->
+
+					<div class="timeline-block">
+
+						<div class="timeline-ico">
+							<i class="fa fa-code-fork"></i>
+						</div>
+
+						<div class="timeline-header">
+							<h3>Full Stack Developer</h3>
+							<p>2021</p>
+						</div>
+
+						<div class="timeline-content">
+							<h4>Computer Selection System</h4>
+							<p>We developed this project, which we developed on Asp .net Core, as a group. It is a work
+								of mine in which we create a database by taking the data from the web using the MVC
+								(Model-View-Controller) structure, which makes it easy for people to choose the
+								computers they need.</p>
+						</div>
+
+					</div> <!-- /timeline-block -->
+
+					<div class="timeline-block">
+
+						<div class="timeline-ico">
+							<i class="fa fa-code-fork"></i>
+						</div>
+
+						<div class="timeline-header">
+							<h3>Software Developer</h3>
+							<p>2020</p>
+						</div>
+
+						<div class="timeline-content">
+							<h4>Transportation System with Dijkstra's Algorithm</h4>
+							<p>In this study, in which I used the Dijkstra algorithm and graph structure, it is a
+								program that finds lines and routes that users can use with or without transfer in
+								transportation in Izmir.</p>
+						</div>
+
+					</div> <!-- /timeline-block -->
+
+
+					<div class="timeline-block">
+
+						<div class="timeline-content">
+							<h4>Other Projects</h4>
+							<p>You can find my projects and explanations over 40 on my github address. I'm trying to put
+								what I can share from my projects on Github. At the same time, there is a Movie-Series
+								application that I have developed and published for 2 Androids.</p>
+						</div>
+
+					</div> <!-- /timeline-block -->
+
+
+				</div> <!-- /timeline-wrap -->
+
+			</div> <!-- /col-twelve -->
+
+		</div> <!-- /resume-timeline -->
+
+		<div class="row resume-timeline">
+
+			<div class="col-twelve resume-header">
+
+				<h2>Work Experiences</h2>
+
+			</div> <!-- /resume-header -->
+
+			<div class="col-twelve">
+
+
+				<div class="timeline-block">
+
+					<div class="timeline-ico">
+						<i class="fa fa-briefcase"></i>
+					</div>
+
+					<div class="timeline-header">
+						<h3>System Engineering </h3>
+						<p>2021 - Continous</p>
+					</div>
+
+					<div class="timeline-content">
+						<h4>System Engineering in Industrial Automation Project Software and Consulting Services</h4>
+						<p>I am currently actively working part time in EOPY company.</p>
+					</div>
+
+				</div> <!-- /timeline-block -->
+
+				<div class="timeline-wrap">
+
+					<div class="timeline-block">
+
+						<div class="timeline-ico">
+							<i class="fa fa-briefcase"></i>
+						</div>
+
+						<div class="timeline-header">
+							<h3>InternShip</h3>
+							<p>2021 </p>
+						</div>
+
+						<div class="timeline-content">
+							<h4>3 Month Internship at EOPY Company</h4>
+							<p>I had the opportunity to work on the R&D project here. My work here is wireless
+								communication, program development on linux, bash script coding. At the same time, I had
+								the opportunity to experience some industrial devices.</p>
+						</div>
+
+					</div> <!-- /timeline-block -->
+
+				</div> <!-- /timeline-wrap -->
+
+			</div> <!-- /col-twelve -->
+
+		</div> <!-- /resume-timeline -->
+
+	</section> <!-- /features -->
+
+
+	<!-- Portfolio Section
+   ================================================== -->
+
+
+	<!-- contact
+   ================================================== -->
+	<section id="contact">
+
+		<div class="row section-intro">
+			<div class="col-twelve">
+
+				<h5>Contact</h5>
+				<h1>I'd Love To Hear From You.</h1>
+
+				<p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia
+					nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
+
+			</div>
+		</div> <!-- /section-intro -->
+
+		
+
+		</div> <!-- /contact-form -->
+
+		<div class="row contact-info">
+
+			<div class="col-four tab-full">
+
+				<div class="icon">
+					<i class="icon-mail"></i>
+				</div>
+
+				<h5>Email Me For Contact</h5>
+
+				<p>
+					<br>	emirhanbilgeblt@gmail.com
+				</p>
+
+			</div>
+
+			<div class="col-four tab-full collapse">
+
+				<div class="icon">
+					<i class="icon-mail"></i>
+				</div>
+
+				<h5>Email Me For Business</h5>
+
+				<p><br>
+					emirhanbilgebulut@ceng.deu.edu.tr
+				</p>
+
+			</div>
+
+			<div class="col-four tab-full collapse">
+
+				<div class="icon">
+					<i class="icon-comment"></i>
+				</div>
+
+				<h5>Social Hub</h5>
+
+				<p><br>
+					linkedin@EmirhanBilge
+				</p>
+
+			</div>
+		
+
+		</div> <!-- /contact-info -->
+
+	</section> <!-- /contact -->
+
+
+	<!-- footer
+   ================================================== -->
+
+	<footer>
+		<div class="row">
+
+			<div class="col-six tab-full pull-right social">
+
+				<ul class="footer-social">
+					<li><a href="https://www.linkedin.com/in/emirhanbilgebulut/"><i class="fa fa-linkedin"></i></a></li>
+					<li><a href="https://www.youtube.com/c/EBBTeam"><i class="fa fa-youtube"></i></a></li>
+					<li><a href="https://github.com/emirhanbilge?tab=repositories"><i class="fa fa-github"></i></a></li>
+				</ul>
+
+			</div>
+
+			<div class="col-six tab-full">
+				<div class="copyright">
+					<span>© Copyright EBB 2022.</span>
+				</div>
+			</div>
+
+			<div id="go-top">
+				<a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+			</div>
+
+		</div> <!-- /row -->
+	</footer>
+
+	<div id="preloader">
+		<div id="loader"></div>
+	</div>
+	
+
+	
+	<!-- Java Script
+   ================================================== -->
+	<script src="{{ url_for('static',filename='/js/jquery-2.1.3.min.js') }}"></script>
+	<script src="	{{ url_for('static',filename='/js/plugins.js') }}"></script>
+	<script src="{{ url_for('static',filename='/js/main.js') }}"></script>
+
+</body>
+
+</html>
